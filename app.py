@@ -59,7 +59,7 @@ def run_app():
 # Download a single file content
 @st.cache_resource(show_spinner = False)
 def get_file_content(path):
-    url = f"https://raw.githubusercontent.com/fendy07/streamlit-FMNIST/main/" + path
+    url = f"https://raw.githubusercontent.com/fendy07/streamlit-FMNIST/main/{path}"
     response = urllib.request.urlopen(url)
     return response.read().decode('utf-8')
 
