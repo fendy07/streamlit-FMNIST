@@ -1,4 +1,4 @@
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://www.streamlit.io/)
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamnist.streamlit.app/)
 
 # StreaMNIST - Deployment Fashion MNIST with Streamlit
 ### Created by Fendy Hendriyanto
