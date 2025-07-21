@@ -2,7 +2,7 @@ HYPER_PARAMS = []
 SAVE_IMAGES = {}
 
 INTRO_MD = "README.md"
-MAIN_TITLE = "Deployment FMNIST with Streamlit"
+MAIN_TITLE = "StreaMNIST - Deployment FMNIST with Streamlit"
 SIDEBAR_TITLE = "Menu"
 SIDEBAR_OPTION_1 = "Show Introduction"
 SIDEBAR_OPTION_2 = "Run The App"
