@@ -25,6 +25,7 @@ def sidebar_menu_ui():
 def show_brief_data():
     train_images, train_labels, test_images, test_labels, class_names = load_data()
     col1, col2 = st.columns((1, 1))
+    col3, col4 = st.columns((1, 1))
 
     # First column: Show training data
     with col1:
@@ -34,6 +35,14 @@ def show_brief_data():
     with col2:
         with st.expander("Show the labels."):
             show_data_labels(train_images, train_labels, class_names)
+    # Third column: Show test data
+    with col3:
+        with st.expander("Show the test data."):
+            show_data(test_images)
+    # Fourth column: Show test labels
+    with col4:
+        with st.expander("Show the test labels."):
+            show_data_labels(test_images, test_labels, class_names)
 
 # Run the app
 def run_app():
