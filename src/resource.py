@@ -7,6 +7,7 @@ SIDEBAR_TITLE = "Menu"
 SIDEBAR_OPTION_1 = "Show Introduction"
 SIDEBAR_OPTION_2 = "Run The App"
 SIDEBAR_OPTION_3 = "Show the Source Code"
+SIDEBAR_OPTION_4 = "About the App"
 
 APP_FILE_NAME = "app.py"
 
@@ -20,4 +21,4 @@ METRICS = {"Accuracy": "accuracy",
            "Sparse Top Categorical Accuracy": "SparseTopKCategoricalAccuracy"}
 
 EPOCH_MIN = 1
-EPOCH_MAX = 20
+EPOCH_MAX = 50

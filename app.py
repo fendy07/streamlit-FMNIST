@@ -20,7 +20,19 @@ def sidebar_menu_ui():
         run_app()
     elif app_mode == SIDEBAR_OPTION_3:
         st.code(get_file_content(APP_FILE_NAME))
-    
+    elif app_mode == SIDEBAR_OPTION_4:
+        st.title("About This App")
+        st.markdown("""
+        This application demonstrates the classification of Fashion MNIST dataset using a Convolutional Neural Network (CNN) model deployed with Streamlit.
+        
+        **Features:**
+        - Select different optimizers, metrics, and epochs for training.
+        - Visualize training results and compare different hyperparameter settings.
+        
+        **Technologies Used:**
+        - TensorFlow and Keras for building and training the CNN model.
+        - Streamlit for creating an interactive web application.
+        """)
 
 def show_brief_data():
     train_images, train_labels, test_images, test_labels, class_names = load_data()
