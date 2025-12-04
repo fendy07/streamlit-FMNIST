@@ -12,7 +12,7 @@ def main():
 def sidebar_menu_ui():
     st.sidebar.title(SIDEBAR_TITLE)
     app_mode = st.sidebar.selectbox("Select an option",
-                                    [SIDEBAR_OPTION_1, SIDEBAR_OPTION_2, SIDEBAR_OPTION_3])
+                                    [SIDEBAR_OPTION_1, SIDEBAR_OPTION_2, SIDEBAR_OPTION_3, SIDEBAR_OPTION_4])
     if app_mode == SIDEBAR_OPTION_1:
         st.title(MAIN_TITLE)
         show_brief_data()
